@@ -9,6 +9,8 @@ namespace RunTrackerAPI.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
+        public PersonalInfo personals { get; set; }
+
         public long totalSteps { get; set; }
 
         public long totalDistance { get; set; }
