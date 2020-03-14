@@ -1,3 +1,7 @@
+# Directories #
+###############
+test/
+
 # Compiled source #
 ###################
 *.com
@@ -26,6 +30,7 @@
 *.sql
 *.sqlite
 *.lock
+MongoDB.txt
 
 
 # OS generated files #
