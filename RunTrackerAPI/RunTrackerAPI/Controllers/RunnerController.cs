@@ -4,15 +4,15 @@ using RunTrackerAPI.Models;
 using RunTrackerAPI.Services;
 
 
-namespace RunnersApi.Controllers
+namespace RunTrackerAPI.Controllers
 {
-    [Route("api")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class RunnersController : ControllerBase
+    public class RunnerController : ControllerBase
     {
         private readonly RunnerService _runnerService;
 
-        public RunnersController(RunnerService runnerService)
+        public RunnerController(RunnerService runnerService)
         {
             _runnerService = runnerService;
         }

@@ -5,7 +5,7 @@ export class FetchData extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { forecasts: [], loading: true };
+    this.state = { forecasts: [], loading: true, runner:[] };
   }
 
   componentDidMount() {
@@ -13,7 +13,7 @@ export class FetchData extends Component {
   }
 
   static renderForecastsTable(forecasts) {
-    return (
+      return (
       <table className='table table-striped' aria-labelledby="tabelLabel">
         <thead>
           <tr>
@@ -51,6 +51,14 @@ export class FetchData extends Component {
     );
   }
 
+    async getRunnerData() {
+        fetch("")
+            .then(res => res.json())
+            .then((result) => {
+                this.setState({ runner: result.runner });
+            });
+    }
+  
   async populateWeatherData() {
     const response = await fetch('weatherforecast');
     const data = await response.json();
