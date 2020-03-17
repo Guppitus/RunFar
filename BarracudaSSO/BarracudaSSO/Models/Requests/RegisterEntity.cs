@@ -22,8 +22,12 @@ namespace BarracudaSSO.Models.Requests
         public string ConfirmPassword { get; set; }
 
         [Required]
-        [Display(Name = "Name")]
-        public string Name { get; set; }
+        [Display(Name = "UserName")]
+        public string UserName { get; set; }
+
+        [Required]
+        [Display(Name = "FirstName")]
+        public string FirstName { get; set; }
 
         [Required]
         [Display(Name = "LastName")]
