@@ -1,0 +1,16 @@
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projects\RunFar\Barracuda\Barracuda\obj\Debug\netcoreapp3.1\Barracuda.csprojAssemblyReference.cache
+C:\Projects\RunFar\Barracuda\Barracuda\obj\Debug\netcoreapp3.1\staticwebassets\Barracuda.StaticWebAssets.Manifest.cache
+C:\Projects\RunFar\Barracuda\Barracuda\obj\Debug\netcoreapp3.1\staticwebassets\Barracuda.StaticWebAssets.xml
+C:\Projects\RunFar\Barracuda\Barracuda\obj\Debug\netcoreapp3.1\Barracuda.AssemblyInfoInputs.cache
+C:\Projects\RunFar\Barracuda\Barracuda\obj\Debug\netcoreapp3.1\Barracuda.AssemblyInfo.cs
+C:\Projects\RunFar\Barracuda\Barracuda\obj\Debug\netcoreapp3.1\Barracuda.RazorTargetAssemblyInfo.cache
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\Barracuda.exe
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\AspNet.Identity.MongoDB.dll
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Projects\RunFar\Barracuda\Barracuda\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Projects\RunFar\Barracuda\Barracuda\obj\Debug\netcoreapp3.1\Barracuda.csproj.CopyComplete

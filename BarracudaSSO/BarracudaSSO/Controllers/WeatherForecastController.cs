@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace myMicroservice.Controllers
+namespace BarracudaSSO.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private string[] Summaries = new[]
+        private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
@@ -27,23 +27,13 @@ namespace myMicroservice.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
-            return Enumerable.Range(1, 1).Select(index => new WeatherForecast
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-200000, 5500),
-                
-                Summary = reverse(Summaries)
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-        }
-
-        private string[] reverse(string[] summary) {
-            for (int k = 0; k <summary.Length / 2; k++){
-             string temp = summary[k];
-             summary[k] = summary[summary.Length - k - 1];
-             summary[summary.Length-k - 1] = temp;  
-            }
-            return summary;
         }
     }
 }

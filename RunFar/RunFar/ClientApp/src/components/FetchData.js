@@ -9,8 +9,15 @@ export class FetchData extends Component {
   }
 
   componentDidMount() {
-    this.populateWeatherData();
-  }
+      this.populateWeatherData();
+      this.getRunnerData();
+    }
+
+    static renderRunnerTable(runners) {
+        return (
+            <div>{runners}</div>
+        );
+    }
 
   static renderForecastsTable(forecasts) {
       return (
@@ -40,7 +47,7 @@ export class FetchData extends Component {
   render() {
     let contents = this.state.loading
       ? <p><em>Loading...</em></p>
-      : FetchData.renderForecastsTable(this.state.forecasts);
+      : FetchData.renderRunnerTable(this.state.runners);
 
     return (
       <div>
@@ -52,11 +59,10 @@ export class FetchData extends Component {
   }
 
     async getRunnerData() {
-        fetch("")
-            .then(res => res.json())
-            .then((result) => {
-                this.setState({ runner: result.runner });
-            });
+        const response = await fetch("http://runtrackerapi-dev.us-east-1.elasticbeanstalk.com/api/runner");
+        const data = await response.json();
+        this.setState({ runner: data, loading: false });
+
     }
   
   async populateWeatherData() {
