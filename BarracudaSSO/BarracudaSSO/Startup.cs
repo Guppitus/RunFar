@@ -33,13 +33,13 @@ namespace BarracudaSSO
         {
             services.AddIdentityMongoDbProvider<ApplicationUser, ApplicationRole>(identityOptions =>
             {
-                identityOptions.Password.RequiredLength = 6;
+                identityOptions.Password.RequiredLength = 3;
                 identityOptions.Password.RequireLowercase = false;
                 identityOptions.Password.RequireUppercase = false;
                 identityOptions.Password.RequireNonAlphanumeric = false;
                 identityOptions.Password.RequireDigit = false;
             }, mongoIdentityOptions => {
-                mongoIdentityOptions.ConnectionString = "mongodb://localhost/myDB";
+                mongoIdentityOptions.ConnectionString = Configuration.GetConnectionString("MongoDbDatabase");
             });
 
             // Add Jwt Authentication
