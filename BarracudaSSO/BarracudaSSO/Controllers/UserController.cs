@@ -55,7 +55,7 @@ namespace BarracudaSSO.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { Name = model.Name, LastName = model.LastName, City = model.City, UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { Name = model.Name, LastName = model.LastName, Birthdate = model.Birthdate, Country = model.Country, State = model.State, City = model.City, UserName = model.Email, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

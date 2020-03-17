@@ -30,6 +30,18 @@ namespace BarracudaSSO.Models.Requests
         public string LastName { get; set; }
 
         [Required]
+        [Display(Name = "Birthdate")]
+        public DateTime Birthdate { get; set; }
+
+        [Required]
+        [Display(Name = "Country")]
+        public string Country { get; set; }
+
+        [Required]
+        [Display(Name = "State")]
+        public string State { get; set; }
+
+        [Required]
         [Display(Name = "City")]
         public string City { get; set; }
     }
