@@ -39,6 +39,9 @@ namespace BarracudaSSO.Controllers
             {
                 Name = user.UserName,
                 LastName = user.LastName,
+                Birthdate = user.Birthdate,
+                Country = user.Country,
+                State = user.State,
                 City = user.City,
                 Email = user.Email
             };
