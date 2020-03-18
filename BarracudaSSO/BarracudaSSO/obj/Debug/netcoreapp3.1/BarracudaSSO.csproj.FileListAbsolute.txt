@@ -166,3 +166,4 @@ C:\Projects\RunFar\BarracudaSSO\BarracudaSSO\bin\Debug\netcoreapp3.1\zh-Hant\Mic
 C:\Projects\RunFar\BarracudaSSO\BarracudaSSO\obj\Debug\netcoreapp3.1\BarracudaSSO.csproj.CoreCompileInputs.cache
 C:\Projects\RunFar\BarracudaSSO\BarracudaSSO\obj\Debug\netcoreapp3.1\BarracudaSSO.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\RunFar\BarracudaSSO\BarracudaSSO\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Projects\RunFar\BarracudaSSO\BarracudaSSO\obj\Debug\netcoreapp3.1\BarracudaSSO.csprojAssemblyReference.cache

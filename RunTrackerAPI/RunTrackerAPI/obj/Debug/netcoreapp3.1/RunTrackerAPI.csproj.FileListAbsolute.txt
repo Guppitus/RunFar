@@ -22,5 +22,6 @@ C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\bin\Debug\netcoreapp3.1\MongoDB.L
 C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\bin\Debug\netcoreapp3.1\SharpCompress.dll
 C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\obj\Debug\netcoreapp3.1\RunTrackerAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\obj\Debug\netcoreapp3.1\RunTrackerAPI.csproj.CopyComplete
-C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\obj\Debug\netcoreapp3.1\RunTrackerAPI.csprojAssemblyReference.cache
 C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\obj\Debug\netcoreapp3.1\RunTrackerAPI.csproj.CoreCompileInputs.cache
+C:\Projects\RunFar\RunTrackerAPI\RunTrackerAPI\obj\Debug\netcoreapp3.1\RunTrackerAPI.genruntimeconfig.cache

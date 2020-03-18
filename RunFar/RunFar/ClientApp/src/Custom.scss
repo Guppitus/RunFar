@@ -1,0 +1,4 @@
+﻿$theme-colors: ( "primary": darkgreen, );
+
+// as suggested by @mutex, it's better to reference by `bootstrap/scss/bootstrap.scss`
+@import "bootstrap/scss/bootstrap.scss";
